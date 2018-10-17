@@ -60,7 +60,7 @@ while True:
 
 # convert our face list into numpy array
 face_data=np.array(face_data)
-face_data.reshape((face_data.shape[0],-1))
+face_data=face_data.reshape((face_data.shape[0],-1))
 print(face_data.shape)
 
 
